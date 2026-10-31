@@ -1,0 +1,16 @@
+# Java build outputs
+*.class
+/build/
+/out/
+
+# Runtime-encrypted user data
+/data/
+/src/data/
+
+# Local IDE and environment settings
+.vscode/
+.env
+
+# Duplicate local project copy and personal document
+/EncryptVault/
+/src/icons/*.pdf

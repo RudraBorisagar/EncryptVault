@@ -1,0 +1,14 @@
+Prerequisites:
+- Java JDK 17 or newer
+- MySQL 8 or newer
+
+1. Import encryptvault.sql into MySQL.
+2. In PowerShell, set the required database password for the current session:
+   $env:DB_PASSWORD = "your_mysql_password"
+   Optional: $env:DB_USER = "root" and $env:DB_URL = "jdbc:mysql://localhost:3306/encryptvault"
+3. Compile from this project folder:
+   javac -cp ".;lib/*" -d build src/Main.java src/filemanager/*.java src/db/*.java src/security/*.java src/settings/*.java src/auth/*.java
+4. Run:
+   java -cp "build;lib/*" Main
+
+For OTP email delivery, also set EMAIL_PASS to a Gmail app password for encryptvaultj@gmail.com.

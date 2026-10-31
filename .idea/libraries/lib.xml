@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EncryptVault/lib/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EncryptVault/lib/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EncryptVault/lib/mysql-connector-j.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
